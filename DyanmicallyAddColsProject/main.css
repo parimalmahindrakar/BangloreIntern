@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row {
+    flex-wrap: nowrap !important;
+}
+.width-col {
+    width: 425px !important;
+    height: 500px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overflow-col {
+    overflow-x: scroll !important ;
+    margin-top: 10%;
+}
+input {
+    padding: 2%;
+}
